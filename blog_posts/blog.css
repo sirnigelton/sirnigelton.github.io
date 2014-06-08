@@ -6,5 +6,9 @@
 }
 #sidebar {
 	float: right;
-	width: 15%;
+	width: 30%;
+}
+#maincontain {
+	float: left;
+	width: 50%
 }
