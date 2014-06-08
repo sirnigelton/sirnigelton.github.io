@@ -1,9 +1,12 @@
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	text-align: justify;
 }
 .header {
 	color: #800000;
+	text-align: center;
+#headgif {
+	text-align: center;
+}
 }
 .footer {
 	color: #660066;
