@@ -18,3 +18,7 @@
 	margin: auto;
 	padding: 6px;
 }
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #DAC8B5;
+}
