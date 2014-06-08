@@ -1,6 +1,8 @@
 #header {
 	background-color: #003399;
 	width: 100%;
+	top: 0;
+	margin: auto;
 }
 #pagetitle {
 	color: #CCCCCC;
