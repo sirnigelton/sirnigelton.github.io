@@ -15,7 +15,7 @@
 #sidebar {
 	float: left;
 	width: 30%;
-	text-align: justify;
+	text-align: left;
 }
 #maincontain {
 	float: right;
@@ -32,7 +32,7 @@ body {
 	float: left;
 	text-align: justify;
 	width: 100%;
-	
+
 }
 .footer {
 	position: absolute;
