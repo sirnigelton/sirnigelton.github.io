@@ -8,6 +8,8 @@
 #header {
 	text-align: center;
 	position: fixed;
+	top: 0;
+	background-color: #003399;
 }
 #sidebar {
 	float: right;
