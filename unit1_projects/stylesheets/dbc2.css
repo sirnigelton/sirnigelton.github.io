@@ -3,6 +3,7 @@
 	width: 100%;
 	top: 0;
 	margin: auto;
+	position: fixed;
 }
 #pagetitle {
 	color: #CCCCCC;
