@@ -38,3 +38,7 @@ body {
 	color: #E6E6E6;
 	max-width: 900px;
 }
+a:link {
+	color: #002447;
+	text-decoration: none;
+}
