@@ -4,13 +4,13 @@
 	background: #003399;
 	text-align: center;
 	height: 4em;
-	position: absolute;
+	top: 0;
 }
 #pagetitle {
 	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 3em;
-	position: absolute;
+
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
