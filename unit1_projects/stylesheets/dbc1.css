@@ -4,3 +4,8 @@ body {
 .header {
 	color: #800000;
 }
+.footer {
+	color: #660066;
+	text-decoration: blink;
+	text-align: center;
+}
