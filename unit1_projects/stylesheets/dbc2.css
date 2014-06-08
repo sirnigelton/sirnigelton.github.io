@@ -1,4 +1,7 @@
-
+#header {
+	background-color: #003399;
+	width: 100%;
+}
 #pagetitle {
 	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
