@@ -13,5 +13,12 @@
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: justify;
+	float: left;
+	width: 75%;
+}
+#sidebar {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	float: right;
+	width: 25%;
+	text-align: right;
 }
