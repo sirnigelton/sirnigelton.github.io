@@ -4,6 +4,7 @@
 	position: fixed;
 	height: 100px;
 	text-align: center;
+	top: 0;
 }
 #pagetitle {
 	color: #CCCCCC;
@@ -16,4 +17,5 @@
 	position: fixed;
 	height: 75px;
 	text-align: center;
+	bottom: 0;
 }
