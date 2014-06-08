@@ -7,7 +7,7 @@
 .header {
 	width: 100%;
 	text-align: center;
-	background-color: #003399;
+	background-color: #002447;
 	color: #E6E6E6;
 	height: 2.5em;
 }
@@ -26,4 +26,9 @@
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #DAC8B5;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 5px;
 }
