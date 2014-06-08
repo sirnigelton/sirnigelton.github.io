@@ -12,15 +12,11 @@
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 3em;
 }
-#container {
-	float: center;
-	margin: auto;
-	width: 80%;
-}
 body {
 	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: center;
+	position: center;
 }
 #footer {
 	width: 100%;
