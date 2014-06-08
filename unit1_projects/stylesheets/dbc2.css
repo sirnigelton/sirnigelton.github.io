@@ -10,3 +10,10 @@
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 3em;
 }
+#footer {
+	width: 100%;
+	background-color: #19597A;
+	position: fixed;
+	height: 75px;
+	text-align: center;
+}
