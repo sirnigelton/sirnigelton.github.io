@@ -5,6 +5,7 @@
 	height: 100px;
 	text-align: center;
 	top: 0;
+	padding: 10px;
 }
 #pagetitle {
 	color: #CCCCCC;
@@ -18,4 +19,5 @@
 	height: 75px;
 	text-align: center;
 	bottom: 0;
+	padding: 10px;
 }
