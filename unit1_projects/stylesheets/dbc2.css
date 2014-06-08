@@ -13,8 +13,7 @@
 	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 3em;
-	float: top;
-	margin-bottom: 5px;
+
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -41,6 +40,8 @@ footer {
 	position: absolute;
 	padding: 5px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 3px solid;
+	border-color: #000000;
 }
 a:link {
     color: #003399;
