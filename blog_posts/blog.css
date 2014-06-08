@@ -28,6 +28,12 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #DAC8B5;
 }
+.content {
+	float: left;
+	text-align: justify;
+	width: 100%;
+	
+}
 .footer {
 	position: absolute;
 	bottom: 0;
