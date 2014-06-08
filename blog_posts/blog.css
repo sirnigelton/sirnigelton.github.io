@@ -4,3 +4,7 @@
 	position: static;
 	margin: auto;
 }
+#sidebar {
+	float: right;
+	width: 15%;
+}
