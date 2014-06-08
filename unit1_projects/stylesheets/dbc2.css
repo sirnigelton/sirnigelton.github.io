@@ -7,12 +7,14 @@
 	top: 0;
 	border: 3px solid;
 	border-color: #000000;
+
 }
 #pagetitle {
 	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 3em;
 	float: top;
+	margin-bottom: 5px;
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
