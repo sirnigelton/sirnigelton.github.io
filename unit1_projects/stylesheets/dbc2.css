@@ -5,7 +5,6 @@
 	height: 100px;
 	text-align: center;
 	top: 0;
-	padding: 10px;
 }
 #pagetitle {
 	color: #CCCCCC;
@@ -13,10 +12,9 @@
 	font-size: 3em;
 }
 body {
-	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: center;
-	position: center;
+	margin: auto;
 	float: center;
 }
 #footer {
@@ -26,5 +24,4 @@ body {
 	height: 75px;
 	text-align: center;
 	bottom: 0;
-	padding: 10px;
 }
