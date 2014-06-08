@@ -18,13 +18,13 @@ body {
 }
 #container {
 	float: left;
-	width: 60%;
+	width: 80%;
 	padding: 5px;
 }
 #sidebar {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	float: right;
-	width: 15%;
+	width: 20%;
 	text-align: right;
 	padding: 5px;
 }
