@@ -4,6 +4,7 @@
 	background: #003399;
 	text-align: center;
 	height: 4em;
+	position: absolute;
 }
 #pagetitle {
 	color: #CCCCCC;
