@@ -36,6 +36,7 @@ footer {
 	bottom: 0;
 	position: absolute;
 	padding: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 a:link {
     color: #003399;
