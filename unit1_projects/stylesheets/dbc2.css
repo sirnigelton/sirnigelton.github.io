@@ -2,11 +2,11 @@
 	width: 100%;
 	background-color: #19597A;
 	position: fixed;
-	height: 70px;
+	height: 100px;
 	text-align: center;
 }
 #pagetitle {
-	color: #E6B88A;
+	color: #CCCCCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
+	font-size: 1.5em;
 }
