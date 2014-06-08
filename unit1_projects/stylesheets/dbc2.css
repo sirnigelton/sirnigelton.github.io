@@ -13,8 +13,8 @@
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	text-align: center;
-	margin: auto;
+	text-align: justify;
+	margin-left: 10%;
 	float: center;
 }
 #footer {
