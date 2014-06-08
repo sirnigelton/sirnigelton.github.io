@@ -13,14 +13,14 @@
 	padding: 2px;
 }
 #sidebar {
-	float: right;
+	float: left;
 	width: 30%;
 	text-align: justify;
 }
 #maincontain {
-	float: left;
+	float: right;
 	width: 50%;
-	text-align: left;
+	text-align: right;
 	margin: auto;
 	padding: 6px;
 }
