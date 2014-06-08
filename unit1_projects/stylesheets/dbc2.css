@@ -5,6 +5,8 @@
 	text-align: center;
 	height: 4em;
 	top: 0;
+	border: 3px solid;
+	border-color: #000000;
 }
 #pagetitle {
 	color: #CCCCCC;
