@@ -15,10 +15,12 @@ body {
 	text-align: justify;
 	float: left;
 	width: 60%;
+	padding: 5px;
 }
 #sidebar {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	float: right;
 	width: 15%;
 	text-align: right;
+	padding: 5px;
 }
