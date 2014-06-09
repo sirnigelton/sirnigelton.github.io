@@ -28,6 +28,9 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #DAC8B5;
 }
+.images {
+	float: center;
+}
 .content {
 	float: left;
 	text-align: justify;
