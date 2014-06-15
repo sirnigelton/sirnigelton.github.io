@@ -8,11 +8,6 @@ body {
   min-width: 960px;
   width: 100%;
 }
-
-p {
-  margin: 1em;
-  font-family: 'EntypoRegular';
-}
 @font-face {
     font-family: 'EntypoRegular';
     src: url('font/Entypo-webfont.eot');
@@ -23,7 +18,10 @@ p {
     font-weight: normal;
     font-style: normal;
   }
-
+p {
+  margin: 1em;
+  font-family: 'EntypoRegular';
+}
 a {
   color: #1D766F;
   text-decoration: none;
