@@ -1,0 +1,59 @@
+<!-- 
+Write your names here:
+1. Nigel Dunetts
+2. Matt Higgins
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="p0_gps1.1.css">
+    <title>Pair Programming</title>
+    <style>
+      div#header {
+        position: fixed;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+      div#nav-bar {
+        float: left;
+        position: fixed;
+        margin-top: 80px;
+        padding: 20px;
+        width: 25%;
+      }
+      div#content {
+        float: right;
+        text-align: left;
+        width: 72%;
+        margin: 0 auto;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='header'>
+      <h1>Pair Programming</h1>
+    </div>
+    <div id='nav-bar'>
+      <h3><a href='#content'>Return to Home</a></h3>
+      <h3><a href='#roles'>Roles Explained</a></h3>
+      <h3><a href='#DBC'>In Relation to DBC</a></h3>
+    </div>
+    <div id='content'>
+      <h2>Intro</h2>
+      <p>This page was created by Matt and Nigel.  It explains the roles of pair programming and its relation to DBC.</p>
+      <div id='roles'>
+        <h2>Driver</h2>
+        <p>The driver's primary role is to type out the code for the project that you're working on.  They interpret what the navigator is trying to explain or accomplish.  They are the fine detail people who are concerned with making sure all of the smaller parts are working together properly.</p>
+        <h2>Navigator</h2>
+        <p>The primary role of the navigator is to conceptualize the design of the project they are trying to create.  They are the "big picture" person who is concerned with the overall layout and function</p>
+      </div>
+      <div id='DBC'>
+        <h2>How Pair Programming Relates to DBC</h2>
+        <p>Explanation of pair programming and DBC.</p>
+      </div>
+    </div>
+  </body>
+</html>
