@@ -10,7 +10,7 @@
 }
 /** Mobile view **/
 @media screen and (max-width: 480px){
-  #famous article.woman {
+  #famous div.woman {
     float: none;
     margin: 5px auto;
     padding: 2%;
