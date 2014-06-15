@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="blog.css">
+		<meta charset="utf-8">
+		<title>Technical Blog</title>
+	</head>
+		<body>
+			<div class="wrapper">
+				<div class="header">
+					<h1>Technical Posts</h1>
+				</div>
+				<div class="content">
+					<h2>Classes vs. IDs</h2>
+						<h3>Basic Overview</h3>
+							<p>Classes and IDs, while technically different, operate fundamentally the same. Basically, classes and IDs act as hooks within your HTML page so that your CSS and/or Javascript know which elements to affect and how. Both classes and IDs can be applied to just about every element on a page, however there are a few key rules to remember when using these features.</p>
+						<h3>Classes are Not Unique</h3>
+							<p>Classes are one of the more commonly used selectors in CSS. Classes can be applied to multiple elements on a page, and a single element can have more than one class assigned to it. This is quite helpful if you have a particular style that you want to replicate and use throughout your webpage. One example would be if you had two different styles of paragraph formatting--let's say they're called "science" and "culture"--that you wanted to use on your website. You can then create a single entry for each class within your CSS stylesheet and then apply them to the applicable article paragraphs throughout your website in order to differentiate between your scientific and cultural articles.</p>
+						<h3>IDs are Unique</h3>
+							<p>Unlike classes, there can only be a single instance of an ID in any given HTML page or document. Furthermore, an element can only have a single ID assigned to it. This is important to remember, because any site that includes the same ID on a page more than once will never pass code validation, and it could even negatively affect how the page is displayed. IDs are used when you only have one instance of a style or format on your page that you want to make unique.</p>
+						<h3>Browser Interaction</h3>
+							<p>Simply applying a class or ID name to an element does nothing to said element by default. This is because browsers do not have any set styling information related to classes or IDs stored. The CSS is what actually modifies your elements, based on the assigned class or ID.</p>
+							<p>However, that's not to say that there is no interaction between a web browser and an ID. While classes may not have any special tricks up their proverbial sleeves, IDs can be referenced through a page link or URL. If you've ever seen a website URL with a '#' in it, such as http://yourdomain.com#comments, then that means the URL is actually searching for the corresponding ID on the page and then moving the browser's view port to it.</p>
+						<h3>More Information</h3>
+							<p>An element can have both a class and an ID applied to it. This is useful if you have a repeating style in your code that you want to apply to a unique element, such as a comments section that you want to be formatted in the same manner as the rest of your page text.</p>
+							<p>CSS does not care whether you use a class or an ID, because there are no restrictions on the types of styling that you can apply to either. Javascript, on the other hand, cares greatly whether you use a class or an ID, because it relies on finding a single element on a page in order to function properly.</p>
+				</div>
+			<div class="footer">
+				<h5>DBC 2014</h5>
+			</div>
+			</div>
+		</body>
+</html>
