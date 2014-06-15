@@ -12,6 +12,10 @@ body {
 p {
   margin: 1em;
 }
+@font-face {
+font-family: entypo;
+src: url(font/Entypo-webfont.woff);
+}
 
 a {
   color: #1D766F;
