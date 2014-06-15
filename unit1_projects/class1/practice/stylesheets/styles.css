@@ -20,7 +20,7 @@ body {
   }
 p {
   margin: 1em;
-  font-family: 'EntypoRegular';
+  font-family: 'EntypoRegular',Arial, sans-serif;
 }
 a {
   color: #1D766F;
