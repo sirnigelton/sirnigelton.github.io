@@ -12,11 +12,11 @@ nav {
 	float: center;
 	text-align: center;
 	margin-top: 80px;
-	position: fixed;
+	position: relative;
 }
 table {
 	width: 400px;
-	float: right;
+	text-align: center;
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
