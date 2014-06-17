@@ -7,6 +7,9 @@ header {
 	height: 70px;
 	padding: 1 1px;
 }
+nav {
+	text-align: center;
+}
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #DAC8B5;
