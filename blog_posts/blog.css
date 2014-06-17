@@ -4,7 +4,8 @@ header {
 	color: lightgrey;
 	width: 100%;
 	position: fixed;
-	height: 60px;
+	height: 70px;
+	padding: 1 1px;
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
