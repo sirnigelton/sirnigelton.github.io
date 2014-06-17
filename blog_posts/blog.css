@@ -12,6 +12,7 @@ nav {
 	text-align: center;
 	margin-top: 80px;
 	float: center;
+	position: absolute;
 }
 table {
 	width: 300px;
