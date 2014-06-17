@@ -3,7 +3,8 @@ header {
 	background-color: navy;
 	color: lightgrey;
 	width: 100%;
-	
+	position: fixed;
+	height: 30px;
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
