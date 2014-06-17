@@ -11,6 +11,7 @@ header {
 nav {
 	text-align: center;
 	margin-top: 80px;
+	float: center;
 }
 table {
 	width: 300px;
