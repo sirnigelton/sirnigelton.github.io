@@ -2,6 +2,8 @@ header {
 	text-align: center;
 	background-color: navy;
 	color: lightgrey;
+	width: 100%;
+	
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
