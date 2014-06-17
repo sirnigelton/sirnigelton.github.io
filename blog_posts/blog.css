@@ -24,6 +24,8 @@ body {
 }
 article {
 	max-width: 960px;
+	float: center;
+	text-align: justify;
 }
 footer {
 	text-align: center;
