@@ -5,8 +5,8 @@ header {
 	width: 100%;
 	float: top;
 	position: fixed;
-	height: 70px;
-	padding: 1 1px;
+	height: 75px;
+	padding: 1px;
 }
 nav {
 	text-align: center;
@@ -21,7 +21,7 @@ footer {
 	color: lightgrey;
 	width: 100%;
 	float: bottom;
-	position: fixed; 
+	bottom: 0; 
 }
 a:link {
 	color: #002447;
