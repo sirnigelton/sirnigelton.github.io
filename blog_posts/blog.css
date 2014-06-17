@@ -16,6 +16,7 @@ nav {
 }
 table {
 	width: 400px;
+	float: center;
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
