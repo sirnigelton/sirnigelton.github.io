@@ -37,6 +37,9 @@ footer {
 	position: fixed;
 	bottom: 0; 
 }
+#homegif {
+	float: center;
+}
 a:link {
 	color: red;
 	text-decoration: none;
