@@ -38,9 +38,10 @@ footer {
 	bottom: 0; 
 }
 .code {
-	margin: 1px;
+	margin: 2px;
+	padding: 1px;
 	background-color: grey;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: black;
 	font-family: courier;
 }
