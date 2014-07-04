@@ -39,9 +39,9 @@ footer {
 }
 .code {
 	margin: 2px;
-	padding: 2px;
+	padding: 4px;
 	background-color: lightgrey;
-	border-width: 5px;
+	border-width: 1em;
 	border-color: black;
 	font-family: courier;
 }
