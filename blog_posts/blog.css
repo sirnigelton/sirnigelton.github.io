@@ -51,7 +51,7 @@ strong {
 }
 a:link {
 	color: red;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:visited {
 	color: #000F1F;
