@@ -37,8 +37,12 @@ footer {
 	position: fixed;
 	bottom: 0; 
 }
-#homegif {
-	float: center;
+.code {
+	margin: 1px;
+	background-color: grey;
+	border-width: 1px;
+	border-color: black;
+	font-family: courier;
 }
 a:link {
 	color: red;
