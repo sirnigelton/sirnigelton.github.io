@@ -37,6 +37,9 @@ footer {
 	position: fixed;
 	bottom: 0; 
 }
+strong {
+	color: red;
+}
 .code {
 	margin: 3px;
 	padding: 8px;

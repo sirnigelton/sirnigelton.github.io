@@ -48,7 +48,7 @@
 							</p>
 							<p>Javascript does have its downsides. Being a client-side language makes it much faster, but this also opens it up to potential security threats. When a user visits a website with JS implemented you are asking their machine to run through an unfamiliar piece of code. This means that an unsavory individual could use JS to steal personal information from someone's computer, or worse. This is why more cautious individuals will disable JS within their browsers. Client-side languages also rely on the user's machine to correctly run and interpret their code, so there is a potential for some machines to process JS differently than others. This can cause problems for your website if a visitor is using an outdated browser version.</p>
 			<h2 id="week4">Enumerable#map</h2>
-							<p>Arrays are the bread and butter of Ruby. As such, we need many different types of methods in order to add, subtract, or otherwise modify the elements of an array. But what about when we want to change each element in an array, but we don't want to modify the array itself? Enter the enumerable method map. The map method takes an array and transforms each element within in based on the code block to which it is assigned, and then returns a new, transformed copy of array, thereby preserving the original.</p>
+							<p>Arrays are the bread and butter of Ruby. As such, we need many different types of methods in order to add, subtract, or otherwise modify the elements of an array. But what about when we want to see what an array would look like modified without actually changing the original array? Enter the enumerable method <strong>map</strong>. The <strong>map</strong> method takes an array and transforms each element within in based on the code block to which it is assigned, and then returns a new, transformed copy of array, thereby preserving the original.</p>
 							<p class="code">
 							array = [1, 2, 3, 4, 5]
 							<br>
@@ -59,9 +59,9 @@
 							<br>
 							puts brray.join(", ")   #=>   -1, -2, -3, -4, -5
 							</p>
-							<p>So what exactly is happening up above? First, we're creating a new array. Then, we're creating a second new array, brray, that is a copy of our first array with an added code block that will make all of the array elements negative. As you can see from our final ouputs, array remains unchanged while brray is a transformed copy of array.
+							<p>So what exactly is happening up above? First, we're creating a new array. Then, we're creating a second new array named brray that is calling the <strong>map</strong> method in order to make a modified copy of array based on the assigned code block. As you can see from our final ouputs, array remains unchanged while brray is a transformed copy of array.
 							</p>
-							<p>What about when we do want to transform the elements within our array? Fret not, because there's map! for that. The map! method works exactly the same as map with one very important distinction:  map! is destructive. This means that calling map! on an array will permanently transform its elements as opposed to making a transformed copy.
+							<p>What about when we do want to transform the elements within our array? Fret not, because there's <strong>map!</strong> for that. The <strong>map!</strong> method works exactly the same as <strong>map</strong> with one very important distinction:  <strong>map!</strong> is destructive. This means that calling <strong>map!</strong> on an array will permanently transform its elements as opposed to making a transformed copy.
 							</p>
 							<p class="code">
 							array = [1, 2, 3, 4, 5]
