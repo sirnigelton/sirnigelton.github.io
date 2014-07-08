@@ -30,6 +30,7 @@
 						<h3><a href="http://www.joystiq.com/">Joystiq</a></h3>
 							<p>I enjoy playing video games in my free time, so one look at Joystiq and it's easy to see why I spend about 20 minutes of my day there (if not more).Their layout is pretty standard as far as websites go, but their menu layout at the top of the page makes navigating through their various sections a breeze. Another website that I would describe as bright due to its use of whitespace, however not nearly as uncluttered as Kickstarter since most, if not all, pages display external ads. The primary reason that I frequent Joystiq is because they have a very skilled writing staff.</p>
 							<p>One of the site's shortcomings is its search bar functionality, which is probably due in part to the fact that they are running on AOL's search engine as opposed to Google's. The returned results are more closely packed together, and they don't offer the same amount of information for the article as you get when using their site normally. Until recently Joystiq did not sell anything. Now, however, they have a <a href="https://deals.joystiq.com/">Deals</a> page that catelogs numerous video game-related sales from all over the web, some of which include discounts on programming packages.</p>
+						<br><br>
 			<h2 id="tweek2">Classes vs. IDs</h2>
 						<h3>Basic Overview</h3>
 							<p>Classes and IDs, while technically different, operate fundamentally the same. Basically, classes and IDs act as hooks within your HTML page so that your CSS and/or Javascript know which elements to affect and how. Both classes and IDs can be applied to just about every element on a page, however there are a few key rules to remember when using these features.</p>
@@ -43,37 +44,88 @@
 						<h3>More Information</h3>
 							<p>An element can have both a class and an ID applied to it. This is useful if you have a repeating style in your code that you want to apply to a unique element, such as a comments section that you want to be formatted in the same manner as the rest of your page text.</p>
 							<p>CSS does not care whether you use a class or an ID, because there are no restrictions on the types of styling that you can apply to either. Javascript, on the other hand, cares greatly whether you use a class or an ID, because it relies on finding a single element on a page in order to function properly.</p>
+						<br><br>
 			<h2 id="tweek3">Javascript</h2>
 							<p>What exactly does Javascript do? In a nutshell, it makes websites more interactive for the user. While in CSS you can do neat things like change the text color when mousing over links, Javascript takes dynamic web design to a new level. Because Javascript is a client-side language, it can run while a web page is open. From a user's point of view it makes change happen almost instantly because the scripts are not stored on some remote server, but within the user's local machine. Javascript is also a visually clean language to use. Everthing is an oject in Javascript, so integrating it with other languages can be a relatively simple matter.
 							</p>
 							<p>Javascript does have its downsides. Being a client-side language makes it much faster, but this also opens it up to potential security threats. When a user visits a website with JS implemented you are asking their machine to run through an unfamiliar piece of code. This means that an unsavory individual could use JS to steal personal information from someone's computer, or worse. This is why more cautious individuals will disable JS within their browsers. Client-side languages also rely on the user's machine to correctly run and interpret their code, so there is a potential for some machines to process JS differently than others. This can cause problems for your website if a visitor is using an outdated browser version.</p>
+						<br><br>
 			<h2 id="tweek4">Enumerable#map</h2>
 							<p>Arrays are the bread and butter of Ruby. As such, we need many different types of methods in order to add, subtract, or otherwise modify the elements of an array. But what about when we want to see what an array would look like modified without actually changing the original array? Enter the enumerable method <strong>map</strong>. The <strong>map</strong> method takes an array and transforms each element within in based on the code block to which it is assigned, and then returns a new, transformed copy of array, thereby preserving the original.</p>
-							<p class="code">
-							array = [1, 2, 3, 4, 5]
-							<br>
-							brray = array.map{|x| -x}
-							<br>
-							<br>
-							puts array.join(", ")   #=>   1, 2, 3, 4, 5
-							<br>
-							puts brray.join(", ")   #=>   -1, -2, -3, -4, -5
-							</p>
+								<p class="code">
+								array = [1, 2, 3, 4, 5]
+								<br>
+								brray = array.map{|x| -x}
+								<br>
+								<br>
+								puts array.join(", ")   #=>   1, 2, 3, 4, 5
+								<br>
+								puts brray.join(", ")   #=>   -1, -2, -3, -4, -5
+								</p>
 							<p>So what exactly is happening up above? First, we're creating a new array. Then, we're creating a second new array named brray that is calling the <strong>map</strong> method in order to make a modified copy of array based on the assigned code block. As you can see from our final ouputs, array remains unchanged while brray is a transformed copy of array.
 							</p>
 							<p>What about when we do want to transform the elements within our array? Fret not, because there's <strong>map!</strong> for that. The <strong>map!</strong> method works exactly the same as <strong>map</strong> with one very important distinction:  <strong>map!</strong> is destructive. This means that calling <strong>map!</strong> on an array will permanently transform its elements as opposed to making a transformed copy.
 							</p>
-							<p class="code">
-							array = [1, 2, 3, 4, 5]
-							<br>
-							array.map!{|x| x * x}
-							<br>
-							<br>
-							puts array.join(", ")   #=>   1, 4, 9, 16, 25	
-							</p>
+								<p class="code">
+								array = [1, 2, 3, 4, 5]
+								<br>
+								array.map!{|x| x * x}
+								<br>
+								<br>
+								puts array.join(", ")   #=>   1, 4, 9, 16, 25	
+								</p>
+						<br><br>
+			<h2 id="tweek5">Ruby Classes and Instances</h2>
+						<h3>What are Classes?</h3>
+							<p>Simply put, a Ruby class is an object that is defined by a user. They still adhere to the "everything is an object" philosophy, however classes take it one step further by being able to house instance methods and variables within themselves. Before we get ahead of ourselves, let's take a look at the most basic example of a new class:</p>
+								<p class="code">
+								class Square
+								<br><br>
+								end
+								</p>
+							<p>It's important to remember that when creating a new class to always start it with a capital letter. Our <strong>Square</strong> class above is still incomplete in its current form. This is because a new class requires two things in order to validate its existence:  state and behavior. In terms of state, a class must have its instances defined by attributes. It regards to our <strong>Square</strong> class we can add side length, but for more complex classes, such as a new class of bicycle, we could add attributes for wheels, pedals, brakes, the chain, handlebars, etc, until we had all of the necessary parts for a working bicycle (depending on what we want our new bicycle class to accomplish). Going back to our new <strong>Square</strong>, let's give it a new attribute to represent side length:</p>
+								<p class="code">
+								class Square
+								<br><br>
+									def initialize(side_length)
+									<br>
+										@side_length = side_length
+										<br>
+									end
+									<br><br>
+								end
+								</p>
+							<p>Now we've created a new <strong>Square</strong> class and assigned it a single instance variable called <strong>@side_length</strong>, but it still doesn't actually do anything in terms of behavior. Continuing to keep matters simple, let's give our <strong>Square</strong> a purpose by defining a new method to calculate the perimeter of any given square as follows:</p>
+								<p class="code">
+								class Square
+								<br><br>
+									def initialize(side_length)
+									<br>
+									@side_length = side_length
+									<br>
+									end
+									<br><br>
+									def perimeter
+									<br>
+									@side_length * 4
+									<br>
+									end
+									<br><br>
+								end
+								</p>
+							<p>Now our <strong>Square</strong> has both a clearly defined state and behavior, meaning that we have succesfully created a new, valid class. Let's try it out!</p>
+								<p class="code">
+								p Square.new(10).perimeter
+								<br>
+								#=>   40 	
+								</p>
+						<h3>Variable Scope</h3>
+							<p>You have no doubt noticed that when defining new variables for a new class the syntax is a bit different than it is normally. When defining new variables for a new class is it necessary to refer to them with the @ symbol. Looking back at our <strong>Square</strong> you can see that we have defined a single instance variable, <strong>@side_length</strong>. This means that whenever we need to use <strong>@side_length</strong> within our new class we must simply refer to it, just like we did in our <strong>perimeter</strong> method. Because <strong>@side_length</strong> is an instance variable we cannot refer to it anywhere outside of our <strong>Square</strong> class. Similarly, our <strong>perimeter</strong> method will only function when it's used in conjunction with our <strong>Square</strong> class, because it is an instance method. Trying to use either variable or method outside of our class would result in an error.</p>
 		</article>
 	</body>
 		<footer>
 			<h4>DBC 2014</h4>
 		</footer>
 </html>
+
+
