@@ -94,23 +94,19 @@ class Square
 end
 </pre>
 							<p>Now we've created a new <strong>Square</strong> class and assigned it a single instance variable called <strong>@side_length</strong>, but it still doesn't actually do anything in terms of behavior. Continuing to keep matters simple, let's give our <strong>Square</strong> a purpose by defining a new method to calculate the perimeter of any given square as follows:</p>
-								<p class="code">
-								class Square
-								<br><br>
-									def initialize(side_length)
-									<br>
-									@side_length = side_length
-									<br>
-									end
-									<br><br>
-									def perimeter
-									<br>
-									@side_length * 4
-									<br>
-									end
-									<br><br>
-								end
-								</p>
+<pre class="code">
+class Square
+
+	def initialize(side_length)
+		@side_length = side_length
+	end
+	
+	def perimeter
+		@side_length * 4
+	end
+
+end
+</pre>
 							<p>Now our <strong>Square</strong> has both a clearly defined state and behavior, meaning that we have succesfully created a new, valid class. Let's try it out!</p>
 								<p class="code">
 								p Square.new(10).perimeter
