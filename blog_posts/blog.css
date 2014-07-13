@@ -48,6 +48,7 @@ strong {
 	border-style: solid;
 	border-color: black;
 	font-family: courier;
+	overflow: auto;
 }
 a:link {
 	color: red;
