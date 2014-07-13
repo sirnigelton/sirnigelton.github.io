@@ -146,9 +146,29 @@ class Item
 end
 
 Item.price
-#=>  "I'm a class method!"
+#=> "I'm a class method!"
 </pre>
-							<p>The keyword here is <strong>self</strong>, which denotes that our <strong>price</strong> method is being defined in terms of our <strong>Item</strong> class on the whole. Trying to call <strong>price</strong> on a new instance of an <strong>Item</strong> class would result in a error.</p>
+							<p>The keyword here is <strong>self</strong>, which denotes that our <strong>price</strong> method is being defined in terms of our <strong>Item</strong> class on the whole. Trying to call <strong>price</strong> on a new instance of an <strong>Item</strong> class would result in a error. In order to get a better idea of the differences between the two, let's look at an example where we have both instance and class methods:</p>
+<pre class="code">
+class Item
+
+	def self.price
+		puts "I'm a class method!"
+	end
+
+	def cart
+		puts "I'm an instance method!"
+	end
+
+end
+
+Item.price #=> "I'm a class method!"
+Item.cart #=> NoMethodError
+
+Item.new.price #=> NoMethodError
+Item.new.cart #=> "I'm an instance method!"
+</pre>
+							<p>Now the differences between instance and class methods are more apparent. As you can see, the <strong>price</strong> class method works only in terms of our class, <strong>Item</strong>, while the <strong>cart</strong> instance method will only work when it is called on a new instance of our <strong>Item</strong> class.</p>
 		</article>
 	</body>
 		<footer>
