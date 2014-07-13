@@ -135,12 +135,26 @@ end
 Item.new("frisbee").cart
 #=>  "Your cart currently holds to following item(s): frisbee."
 </pre>
-							<p>While the above example is rather rudimentary, it does provide us with two prime examples of instance methods: <strong>initialize</strong> and <strong>cart</strong>. These two instance methods will work whenever they are called on for new instances of our <strong>Item</strong> class, like with our frisbee example. Now let's take a look at an example of a class method:</p>
+							<p>While the above example is rather rudimentary, it does provide us with two prime examples of instance methods: <strong>initialize</strong> and <strong>cart</strong>. These two instance methods will work whenever they are called on for new instances of our <strong>Item</strong> class, like with our frisbee example. Now let's take a look at a two examples of a class method:</p>
 <pre class="code">
+# Example 1
 class Item
 
 	def self.price
 		puts "I'm a class method!"
+	end
+
+end
+
+Item.price
+#=> "I'm a class method!"
+
+# Example 2
+class Item
+	class << self
+		def price
+			puts "I'm a class method!"
+		end
 	end
 
 end
@@ -168,7 +182,9 @@ Item.cart #=> NoMethodError
 Item.new.price #=> NoMethodError
 Item.new.cart #=> "I'm an instance method!"
 </pre>
-							<p>Now the differences between instance and class methods are more apparent. As you can see, the <strong>price</strong> class method works only in terms of our class, <strong>Item</strong>, while the <strong>cart</strong> instance method will only work when it is called on a new instance of our <strong>Item</strong> class.</p>
+							<p>Now the differences between instance and class methods are more apparent. As you can see, the <strong>price</strong> class method works only in terms of our class, <strong>Item</strong>, while the <strong>cart</strong> instance method will only work when it is called on a new instance of our <strong>Item</strong> class. In simpler terms, instance methods are used when we want to do something to a specific instance of a class, such as the frisbee from the first example, whereas class methods are used whenever we want to do something to an entire class of objects or in cases when an instance is unavailable.</p>
+						<h3>When Should I Use Class Methods?</h3>
+							<p>As previously stated, we should use class methods when we want to do something to all of the objects within that class</p>
 		</article>
 	</body>
 		<footer>
