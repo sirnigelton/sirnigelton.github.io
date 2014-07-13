@@ -117,6 +117,38 @@ end
 							<p>You have no doubt noticed that when defining new variables for a new class the syntax is a bit different than it is normally. When defining new variables for a new class is it necessary to refer to them with the @ symbol. Looking back at our <strong>Square</strong> you can see that we have defined a single instance variable, <strong>@side_length</strong>. This means that whenever we need to use <strong>@side_length</strong> within our new class we must simply refer to it, just like we did in our <strong>perimeter</strong> method. Because <strong>@side_length</strong> is an instance variable we cannot refer to it anywhere outside of our <strong>Square</strong> class. Similarly, our <strong>perimeter</strong> method will only function when it's used in conjunction with our <strong>Square</strong> class, because it is an instance method. Trying to use either variable or method outside of the scope of our class would result in an error.</p>
 						<br>
 			<h2 id="tweek6">Class Methods in Ruby</h2>
+						<h3>The Difference Between Instance and Class Methods</h3>
+							<p>We've been dealing with instance methods for a few weeks now, so these should look familiar:</p>
+<pre class="code">
+class Item
+	
+	def initialize(item_name)
+		@item_name = item_name
+	end
+
+	def cart
+		puts "Your cart currently holds to following item(s): #{@item_name}."
+	end
+
+end
+
+Item.new("frisbee").cart
+#=>  "Your cart currently holds to following item(s): frisbee."
+</pre>
+							<p>While the above example is rather rudimentary, it does provide us with two prime examples of instance methods: <strong>initialize</strong> and <strong>cart</strong>. These two instance methods will work whenever they are called on for new instances of our <strong>Item</strong> class, like with our frisbee example. Now let's take a look at an example of a class method:</p>
+<pre class="code">
+class Item
+
+	def self.price
+		puts "I'm a class method!"
+	end
+
+end
+
+Item.price
+#=>  "I'm a class method!"
+</pre>
+							<p>The keyword here is <strong>self</strong>, which denotes that our <strong>price</strong> method is being defined in terms of our <strong>Item</strong> class on the whole. Trying to call <strong>price</strong> on a new instance of an <strong>Item</strong> class would result in a error.</p>
 		</article>
 	</body>
 		<footer>
