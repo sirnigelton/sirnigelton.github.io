@@ -23,6 +23,24 @@
 				<h3>Arrays</h3>
 					<p>Ordered, integer-indexed collections of objects.</p>
 					<p>Array indexing starts at 0. A negative number is relative to the end of the array, i.e., -1 is the last element, -2 is the second to last element, etc.</p>
+					<p>Example:</p>
+<pre class="code">
+array = ["one", 2.0, 3]  #=>  ["one", 2.0, 3]
+</pre>
+					<p>Create a new array:</p>
+<pre class="code">
+array = Array.new  #=>  []
+Array.new(4)  #=>  [nil, nil, nil, nil]
+</pre>
+					<p>Add and remove elements:</p>
+<pre class="code">
+array = [1, 2, 3]
+
+array.push(4, 5, 6)  #=>  [1, 2, 3, 4, 5, 6]
+
+array.pop  #=>  [1, 2, 3, 4, 5]
+</pre>
+				<h3>Hashes</h3>
 		</article>
 	</body>
 		<footer>
