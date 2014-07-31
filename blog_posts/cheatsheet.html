@@ -53,7 +53,9 @@ hash[1 => "a", 2 => "b"]  #=>  {1=>"a", 2=>"b"}
 mystring = String.new("This is my string. There are many like it, but this one is mine.")
 </pre>
 				<h3>Integers</h3>
-					<p></p>
+					<p>This class encapsulates the two main classes that hold whole numbers in Ruby, Bignum and Fixnum.</p>
+					<p><strong>Bignum</strong> objects hold integers outside the range of Fixnum. If an integer calculation would overflow a Fixnum then it is autmatically converted to a <strong>Bignum</strong>. Likewise, if a <strong>Bignum</strong> calculation would result in an integer that fits in a Fixnum, it is automatically converted. <strong>Bignum</strong> values are not immediate, they are referenced. This means that when passing <strong>Bignum</strong> objects as parameters they are working with references to the object, not the object itself.</p>
+					<p><strong>Fixnum</strong> objects hold integers that can be represented in a native machine word (minus 1 bit). If a <strong>Fixnum</strong> calculation results in a Bignum return, the value is automatically converted into a Bignum. <strong>Fixnum</strong> objects have immediate value, meaning that when passed as a parameter the actual object itself is used, not a reference to it.</p>
 		</article>
 	</body>
 		<footer>
